@@ -1,0 +1,257 @@
+/* body {
+    
+} */
+
+.navbar {    
+    /* position:fixed;        */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+    padding: 0 24px;
+    background-color: #fafafa;
+    width: 100%;
+}
+
+.logo {
+    width: 104px;
+    height: 8px;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    gap: 8px;
+}
+
+.itemmenu {
+    border: none;
+    background-color: inherit;
+    color: #555;
+    font-weight: 500;
+    padding: 8px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.itemmenu:hover {
+    background-color: #e0e0e0;
+}
+
+.itemmenu:active  {
+    background-color: #bcbcbc;
+}
+
+.hero_mobil {
+    padding-top: 64px;
+}
+
+.hero2 {
+    position: static;
+    width: fit-content;
+}
+
+.hero_title {
+    margin-top: 124px;    
+}
+
+.herotext1 {
+    /* margin-bottom: 16px;  */
+    font-size: 16px;   
+}
+
+.herotext2 {
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+.buttonhero {
+    padding: 12px 35px;
+}
+
+.produklist {
+    margin: 96px 0px;
+}
+
+.produklist div div{
+    margin: 24px 0px 24px 0px;
+}
+
+.image-container img {
+    width: 290px;
+    height: 195px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.image-container img:hover {
+    transform: scale(1.1);
+}
+
+.image-container {
+    overflow: hidden;
+}
+
+.menu-option {
+    font-weight: 300;
+}
+
+.product-card {
+    text-align: center;
+}
+
+.product-card h3, .product-card p, .product-card a {
+    margin-bottom: 4px;
+}
+
+.custom-img {
+    width: 290px;
+    height: 218px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    margin: 30px 0px;
+}
+
+.custom-img:hover {
+    transform: scale(1.1);
+}
+
+.product-card {
+    overflow: hidden;
+    text-align: center;
+}
+
+.custom-link {
+    color: rgb(42, 96, 157);
+    transition: color 0.3s ease;
+}
+
+.custom-link:hover {
+    color: rgb(25, 70, 125);
+}
+
+.tentangvolvo {
+    padding: 96px 24px ;
+    background-color: #fafafa;
+    margin: 96px 0px;
+}
+
+.sizettgvolvo {
+    width: 1232px;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 1300px) {
+    .sizettgvolvo {
+        width: auto;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.kotakjeda {
+    width: 80px;
+    height: 80px;
+}
+
+.gbrttgvolvo {
+    margin-bottom: 32px;
+}
+
+.volvo-button {
+    color: rgb(42, 96, 157);
+    border-color: rgb(42, 96, 157);
+  }
+
+.volvo-button:hover {
+    background-color: rgb(42, 96, 157);
+    color: #ffffff; /* White */
+    border-color: rgb(42, 96, 157);
+  }
+
+.volvo-button:active {
+    transform: scale(0.95);
+  }
+
+.TL {
+    margin: 96px auto;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.TL div{
+    width: 845px;
+}
+
+.tautanlangsung {
+    margin-bottom: 24px;
+}
+  
+.flex-link {    
+    padding: 24px 0px 24px 0px;
+    border-color: rgba(0, 0, 0, 0.12);
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-decoration: none;
+    color: rgb(42, 96, 157);
+    transition: color 0.3s;
+}
+
+.flex-link:hover {
+    color: black; 
+}
+
+.flex-link div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    width: 414.203px;
+}
+
+@media (max-width: 1300px) {
+    .TL {
+        margin: 96px 24px;
+    }
+
+    .flex-link div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex: 1;
+        width: auto;
+    }
+}
+
+.flex-link svg {
+    width: 16px;
+    height: 16px;
+    margin-left: auto;
+}
+
+
+.footervolvo {
+    padding: 24px 24px 32px 24px;
+    background-color: #fafafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.listitem {
+    padding: 4px 4px 0px 4px;
+    margin: 4px 8px 8px;
+    font-weight: 300;
+    
+}
+
+.listitem a:hover {
+    color: rgb(42, 96, 157);
+}

@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Bootstrap -->
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    /> -->
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Google -->
+
+    <!-- title -->
+    <title>Volvo Cars Indonesia | Volvo Cars</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar fixed z-50">
+      <div class="logo">
+        <a href="index.html"
+          ><img
+            src="https://www.volvocars.com/static/shared/images/volvo-spread-wordmark.svg"
+            alt="Volvo"
+        /></a>
+      </div>
+      <div class="menu">
+        <button class="itemmenu" onclick=""><b>Mobil Kami</b></button>
+        <button class="itemmenu" onclick=""><b>Menu</b></button>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero_mobil relative">
+      <div class="hero2">
+        <picture>
+          <img
+            data-autoid="hero:image"
+            src="https://www.volvocars.com/images/cs/v3/assets/blt618dcb179a89242d/blt242aa41533f2a92a/6579a693ea1c09000a7ffe51/c40-recharge-hero-desktop-2560x1096.jpg?branch=prod_alias&amp;auto=webp&amp;h=1096&amp;iar=0&amp;w=2560"
+            alt="The side profile of a  blue Volvo C40 Recharge."
+          />
+        </picture>
+      </div>
+      <div
+        class="hero_title absolute top-0 left-0 right-0 bottom-0 flex flex-col items-center bg-black bg-opacity-10"
+      >
+        <p class="herotext1 text-white font-bold">Volvo Recharge</p>
+        <p class="herotext2 text-white font-bold">Meet The Fully Electric</p>
+        <button
+          class="buttonhero bg-white hover:bg-gray-400 active:bg-gray-400 text-black font-bold rounded transition-all duration-150 ease-linear focus:outline-none focus:ring-2 focus:ring-white-300 active:scale-95"
+        >
+          <a href="https://www.volvocars.com/id-id/cars/c40-electric/"
+            >Selengkapnya</a
+          >
+        </button>
+      </div>
+    </section>
+
+    <!-- Produk List -->
+    <section class="produklist flex items-center justify-center py-0">
+      <div class="product-section w-full max-w-screen-xl mx-auto px-4">
+          <h2 class="text-3xl font-bold pb-8 text-center">Semua Model</h2>
+          <div class="menu-options flex justify-center space-x-4">
+              <button class="menu-option text-gray-400 hover:text-black focus:text-black active:text-black">
+                  Semua (5)
+              </button>
+              <button class="menu-option text-gray-400 hover:text-black focus:text-black">
+                  Crossover (1)
+              </button>
+              <button class="menu-option text-gray-400 hover:text-black focus:text-black">
+                  SUV (4)
+              </button>
+          </div>
+          <div class="grid grid-cols-4 gap-4 mt-8">
+              <div class="product-card flex flex-col items-center">
+                  <p class="text-gray-500 text-[16px]"><span class="text-black font-bold">XC40 Recharge </span>Pure Electric</p>
+                  <p class="text-[12px] font-light ">Beli mulai 1.310.000.000,00 IDR</p>
+                  <picture>
+                      <img class="custom-img"
+                          src="https://www.volvocars.com/images/cs/v3/assets/bltab26d231d43e6180/bltcd2cba163c312f7f/65700c09cf04bd000d3ff4c8/xc40-bev-my24-responsive_1.jpg?branch=prod_alias&amp;auto=webp&amp;h=300&amp;iar=0"
+                          alt="A green Volvo XC40 Recharge full electric compact SUV standing still on grey floor in a studio">
+                  </picture>
+                  <a href="https://www.volvocars.com/id-id/cars/xc40-electric/" class="" style="color: rgb(42, 96, 157);" hover="">Lihat ></a>
+              </div>
+              <div class="product-card flex flex-col items-center">
+                  <p class="text-gray-500 text-[16px]"><span class="text-black font-bold">XC90 Recharge </span>Plug-In Hybrid</p>
+                  <p class="text-[12px] font-light">Dari 1.890.000.000 IDR</p>
+                  <picture>
+                      <img class="custom-img"
+                          src="https://www.volvocars.com/images/cs/v3/assets/bltab26d231d43e6180/bltf935624db4f83d8b/65700c274b2dba000d59d4d1/xc90-phev-my24.jpg?branch=prod_alias&amp;auto=webp&amp;h=300&amp;iar=0"
+                          alt="A denim blue Volvo SUV XC90 Recharge plugin hybrid standing still on grey floor in a studio">
+                  </picture>
+                  <a href="https://www.volvocars.com/id-id/cars/xc90-hybrid/" class="" style="color: rgb(42, 96, 157);" hover="">Lihat ></a>
+              </div>
+              <div class="product-card flex flex-col items-center">
+                  <p class="text-gray-500 text-[16px]"><span class="text-black font-bold">XC60 Recharge </span>Plug-In Hybrid</p>
+                  <p class="text-[12px] font-light">Dari 1.362.000.000 IDR</p>
+                  <picture>
+                      <img class="custom-img"
+                          src="https://www.volvocars.com/images/cs/v3/assets/bltab26d231d43e6180/blt0640efe60e8ee0ba/65700c1ce4ee78000daae6b9/xc60-phev-my24-responsive.jpg?branch=prod_alias&amp;auto=webp&amp;h=300&amp;iar=0"
+                          alt="A vapour grey Volvo XC60 Recharge plug-in hybrid SUV standing still on grey floor in a studio.">
+                  </picture>
+                  <a href="https://www.volvocars.com/id-id/cars/xc60-hybrid/" class="" style="color: rgb(42, 96, 157);" hover="">Lihat ></a>
+              </div>
+              <div class="product-card flex flex-col items-center">
+                  <h3 </h3>
+                  <p class="text-gray-500 text-[16px]"><span class="text-black font-bold">XC40 Recharge </span>Plug-In Hybrid</p>
+                  <p class="text-[12px] font-light">Dari 1.050.000.000 IDR</p>
+                  <picture>
+                      <img class="custom-img"
+                          src="https://www.volvocars.com/images/cs/v3/assets/bltab26d231d43e6180/blt989a27b0c72cdebb/65700c11fc2261000dffe437/xc40-phev-my23-responsive.jpg?branch=prod_alias&amp;auto=webp&amp;h=300&amp;iar=0"
+                          alt="SUV Volvo XC40 Recharge plug-in hybrid hijau dipajang di lantai abu-abu dalam studio">
+                  </picture>
+                  <a href="https://www.volvocars.com/id-id/cars/xc40-hybrid/" class="" style="color: rgb(42, 96, 157);" hover="">Lihat ></a>
+              </div>
+          </div>
+      </div>
+  </section>
+  
+  
+
+    <!-- Tentang Volvo -->
+    <section class="tentangvolvo">
+      <div class="sizettgvolvo mx-auto">
+        <div class="text-center">
+          <h2 class="jdltentangvolvo text-3xl font-bold pb-8">
+            Mengapa Volvo?
+          </h2>
+          <div class="kotakjeda"></div>
+          <picture class="gbrttgvolvo">
+            <img
+              data-autoid="callouts:main:image"
+              src="https://www.volvocars.com/images/cs/v3/assets/blt618dcb179a89242d/blt8b193448d24bd8ae/657011e08ec2bc000df4e692/homepage-whyvolvo-desktop-16x9.jpg?branch=prod_alias&amp;auto=webp&amp;h=1440&amp;iar=0&amp;w=2560"
+              loading="lazy"
+              alt="Seorang anak duduk di belakang mobil yang terparkir"
+            />
+          </picture>
+          <div class="mt-8">
+            <div class="flex flex-row gap-6">
+              <div class="flex-1 text-left">
+                <h3 class="text-[20px] font-bold mb-2">
+                  Membuat hidup Anda lebih mudah
+                </h3>
+                <p class="text-[16px] font-light">
+                  Cara baru kami berpindah dari A ke B. Dapatkan akses ke Volvo
+                  kapan pun Anda mau sesuai keinginan Anda.
+                </p>
+              </div>
+              <div class="flex-1 text-left">
+                <h3 class="text-[20px] font-bold mb-2">
+                  Masa depan kami adalah elektrik
+                </h3>
+                <p class="text-[16px] font-light">
+                  Semua mobil kami tersedia dengan tenaga listrik. Kami membantu
+                  mengurangi dampak terhadap lingkungan dari aktivitas
+                  sehari-hari.
+                </p>
+              </div>
+              <div class="flex-1 text-left">
+                <h3 class="text-[20px] font-bold mb-2">
+                  Melindungi harta yang berharga
+                </h3>
+                <p class="text-[16px] font-light">
+                  Kami bangga dengan warisan keamanan kami. Kami selalu
+                  berinovasi dengan cara baru untuk membantu melindungi harta
+                  Anda yang berharga.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="mt-8">
+            <button
+              class="volvo-button px-8 py-3 font-bold border text-blue-custom rounded bg-gray-50 transition-all"
+            >
+              <a href="https://www.volvocars.com/id-id/v/our-story"
+                >Ketahui selengkapnya tentang Volvo</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tautan Langsung -->
+    <section class="TL">
+      <div>
+        <p class="text-center font-bold text-[16px] tautanlangsung">
+          Tautan Langsung
+        </p>
+        <div class="flex flex-col justify-center">
+          <a href="#" class="flex-link">
+            <div>
+              <p>Media/Press</p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class=""
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"
+                />
+              </svg>
+            </div>
+          </a>
+          <a href="#" class="flex-link">
+            <div>
+              <p>Investor relations</p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class=""
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"
+                />
+              </svg>
+            </div>
+          </a>
+          <a href="#" class="flex-link">
+            <div>
+              <p>Careers</p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class=""
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"
+                />
+              </svg>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footervolvo">
+      <div>
+        <div class="flex flex-row-4 justify-center text-[12px]">
+          <span class="listitem justify-center"><a href="#">Cookies</a></span>
+          <span class="listitem justify-center"
+            ><a href="https://www.volvocars.com/id-id/v/legal/legal"
+              >Legal</a
+            ></span
+          >
+          <span class="listitem justify-center"
+            ><a href="https://www.volvocars.com/id-id/v/legal/privacy"
+              >Privacy</a
+            ></span
+          >
+          <span class="listitem justify-center"
+            ><a href="https://www.media.volvocars.com/global/en-gb"
+              >Media/Press</a
+            ></span
+          >
+        </div>
+        <div>
+          <span class="text-[12px] font-light text-center p-4">
+            Copyright &copy; 2024 Volvo Car Corporation (or its affiliates or
+            licensors).
+          </span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
